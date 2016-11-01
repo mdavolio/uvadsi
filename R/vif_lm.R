@@ -17,7 +17,7 @@
 #' @export
 #' @importFrom car vif
 #' @importFrom stats lm
-vif_lm <- function(frame, pred, bound){
+vif_2_lm <- function(frame, pred, bound){
 
   if (missing(bound)) {
     bound <- 5

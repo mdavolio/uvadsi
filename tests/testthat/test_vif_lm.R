@@ -1,3 +1,4 @@
+set.seed(1031)
 
 # Statics
 test_table_1 <- data.frame(
